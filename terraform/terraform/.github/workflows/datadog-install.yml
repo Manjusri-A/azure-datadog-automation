@@ -1,0 +1,12 @@
+name: Install Datadog Agent
+
+on:
+  workflow_dispatch:
+
+jobs:
+  install-datadog:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Test workflow
+        run: echo "Datadog installation workflow started"
